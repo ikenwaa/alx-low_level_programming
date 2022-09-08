@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - returns the text "Programming is like building a multilingual puzzle
+ * Return: 0 if program is true else return something else
  *
- * main: Entry point
- *
- * String to return: prints "Programming is like building a multilingual puzzle"
- *
- * Return: Always 0 (Success)
-*/
+ */
 
 int main(void)
 {
