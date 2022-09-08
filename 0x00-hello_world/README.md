@@ -1,13 +1,21 @@
-# 0x00. C - Hello, World
+# 0x00-hello_world
 
-## Task 0. Preprocessor
+This directory contains bash scripts and C programs written by me for the ALX-Holberton Full Stack software engineering program.
+
+## 0. Preprocessor
 This script runs a C file through the preprocessor and saves the result in another file.
 
-## Task 1. Compiler
+## 1. Compiler
 This script will compile a C file that does not link. The output file will be named the same as the C file but with the extension `.o`.
 
-## Task 2. Assembler
+## 2. Assembler
 This script will generate the assembly code of a C program and save it in an output file named as the same file but with a `.s` extension instead of `.c`.
 
-## Task 3. Name
+## 3. Name
 This script will compile a C file and create an executable named `cisfun`.
+
+## 4. Hello, puts
+This C program will print to the standard output exactly `"Programming is like building a multilingual puzzle"` followed by a new line using the `puts` built-in function.
+
+## 5. Hello, printf
+This C program will print to the standard output exactly `with proper grammar, but the outcome is a piece of art,` followed by a new line using the built-in `printf` function.
