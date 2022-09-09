@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Start of program
+ * main - Entry point
+ *
  * Description: prints "with proper grammar, but the outcome is a piece of
  *  art," followed by a new line
- * Return - 0 if program is true, otherwise return something else
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
