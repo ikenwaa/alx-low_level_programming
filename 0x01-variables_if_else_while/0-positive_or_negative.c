@@ -5,9 +5,10 @@
 /**
  * main - Checks if an int is positive or negative.
  *
- * Description - This program will check if a random number
+ * Description: This program will check if a random number
  * is positive or negative or zero.
- * Return - 0 always
+ *
+ * Return: 0 always
  */
 
 int main(void)
