@@ -11,10 +11,7 @@
 
 int _isalpha(int c)
 {
-	char low = 'a';
-	char upp = 'A';
-
-	while (low <= 'z' && upp <= 'Z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);
