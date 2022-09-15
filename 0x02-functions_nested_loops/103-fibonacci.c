@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of even values 
+ * main - prints the sum of even values
  * in a fibonacci sequence not greater than 4,000,000
  *
  * Return: 0 always
@@ -19,7 +19,6 @@ int main(void)
 		j += i;
 		i = k;
 	}
-
 	printf("%d\n", sum);
 	return (0);
 }
