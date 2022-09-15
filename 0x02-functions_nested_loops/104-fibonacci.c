@@ -10,19 +10,19 @@
 int main(void)
 {
 	int count = 2;
-	long int i, j, k;
+	float i, j, k;
 
 	i = 1;
 	j = i + 1;
 	k = i + j;
 
-	printf("%lu, ", i);
-	printf("%lu, ", j);
+	printf("%.0f, ", i);
+	printf("%.0f, ", j);
 
 	while (count < 98)
 	{
 		count++;
-		printf("%lu", k);
+		printf("%.0f", k);
 		i = j;
 		j = k;
 		k = i + j;
