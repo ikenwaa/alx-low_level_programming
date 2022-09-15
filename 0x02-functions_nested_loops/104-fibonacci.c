@@ -19,14 +19,14 @@ int main(void)
 	printf("%.0f, ", i);
 	printf("%.0f, ", j);
 
-	while (count < 98)
+	while (count <= 98)
 	{
 		count++;
 		printf("%.0f", k);
 		i = j;
 		j = k;
 		k = i + j;
-		if (count < 98)
+		if (count <= 98)
 			printf(", ");
 	}
 	printf("\n");
