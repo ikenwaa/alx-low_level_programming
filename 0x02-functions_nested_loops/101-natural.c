@@ -3,7 +3,6 @@
 /**
  * main - prints natural numbers below 1024
  * that are multiples of 3 and 5
- * @n: integer argument
  *
  * Return: returns the sum and 0 (success)
  */
