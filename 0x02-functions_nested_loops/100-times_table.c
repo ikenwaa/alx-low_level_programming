@@ -15,10 +15,10 @@ void print_times_table(int n)
 		{
 			for (j = 1; j <= n; j++)
 			{
-				_putchar(44); /* ASCII for "," */
-				_putchar(32); /* ASCII for space */
+				_putchar(44);
+				_putchar(32);
 
-				k = i* j;
+				k = i * j;
 
 				if (k <= 99)
 					_putchar(32);
@@ -26,7 +26,7 @@ void print_times_table(int n)
 				if (k >= 100)
 				{
 					_putchar((k / 100) + 48);
-					_putchar((k /10) % 10 + 48);
+					_putchar((k / 10) % 10 + 48);
 				}
 				else if (k <= 99 && k >= 10)
 				{
@@ -36,4 +36,4 @@ void print_times_table(int n)
 		_putchar('\n');
 		}
 	}
-}	
+}
