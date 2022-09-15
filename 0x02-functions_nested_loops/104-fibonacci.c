@@ -22,7 +22,7 @@ int main(void)
 	while (count < 98)
 	{
 		count++;
-		printf("%d", k);
+		printf("%lu", k);
 		i = j;
 		j = k;
 		k = i + j;
