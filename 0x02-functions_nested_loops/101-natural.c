@@ -8,16 +8,15 @@
  * Return: returns the sum and 0 (success)
  */
 
-int main(int n)
+int main(void)
 {
 	int n, sum;
 
 	for (n = 0; n < 1024; n++)
 	{
-		if (n % 3 == 0 && n % 5 == 0)
+		if (n % 3 == 0 || n % 5 == 0)
 		{
 			sum += n;
-			n++;
 		}
 	}
 	printf("%d\n", sum);
