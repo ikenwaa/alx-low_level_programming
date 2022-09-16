@@ -8,7 +8,7 @@
 
 void print_triangle(int size)
 {
-	int i = 0, j;
+	int i = 1, j;
 
 	while (i < size && size > 0)
 	{
