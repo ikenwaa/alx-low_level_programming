@@ -24,9 +24,11 @@ int main(void)
 			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
+		else if (i != 100)
+			_putchar(32);
 		else
 			printf("%d\n", i);
 	}
-	printf("\n");
+	_putchar('\n');
 	return (0);
 }
