@@ -25,10 +25,10 @@ int main(void)
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else
-			_putchar(i);
+			printf("%d", i);
 		if (i != 100)
 			_putchar(32);
 		i++;
 	}
-	_putchar('\n');
+	printf('\n');
 }
