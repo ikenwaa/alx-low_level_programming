@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - print "Fizz" for multiples of 3, "Buzz" for
@@ -27,8 +26,9 @@ int main(void)
 		else
 			printf("%d", i);
 		if (i != 100)
-			_putchar(32);
+			putchar(32);
 		i++;
 	}
-	printf('\n');
+	putchar('\n');
+	return (0);
 }
