@@ -14,9 +14,9 @@
 
 int main(void)
 {
-	int i;
-
-	for (i = 1, i <= 100; i++)
+	int i = 1;
+	
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz");
@@ -24,11 +24,11 @@ int main(void)
 			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
-		else if (i != 100)
-			_putchar(32);
 		else
-			printf("%d\n", i);
+			_putchar(i);
+		if (i != 100)
+			_putchar(32);
+		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
