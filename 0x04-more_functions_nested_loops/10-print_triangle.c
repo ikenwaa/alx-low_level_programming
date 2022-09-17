@@ -3,33 +3,29 @@
 /**
  * print_triangle - prints a triangle on the terminal
  * @size: Size of the triangle.
- * Return: 0 always
  */
 
 void print_triangle(int size)
 {
-	int i = 1, j;
+	int i = 1, j, k;
 
-	while (i < size && size > 0)
+	if (size > 0)
 	{
-		j = 0;
-		while (j < size - i)
+		for (; i < size; i++)
 		{
-			_putchar(32);
-			j++;
+			for (j = 0; j < size; j++)
+			{
+				k = size - 1;
+
+				if (j < k)
+					_putchar(32);
+				else
+					_putchar(35);
+			}
+			n--;
+			_putchar('\n');
 		}
-
-		j = 0;
-
-		while (j < i)
-		{
-			_putchar('#');
-			j++;
-		}
-
-		_putchar('\n');
-		i++;
 	}
-	if (i == 1)
+	else
 		_putchar('\n');
 }
