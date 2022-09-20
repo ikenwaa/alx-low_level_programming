@@ -10,9 +10,9 @@ int _atoi(char *s)
 {
 	unsigned int num = 0;
 	int sym = 1;
-	/* int i = 0; */
+	int i = 0;
 
-	while (*s++)
+	while (i < *s)
 	{
 		if (*s == '-')
 			sym *= -1;
@@ -21,5 +21,7 @@ int _atoi(char *s)
 		else if (num > 0)
 			break;
 	}
+	i++;
+
 	return (num * sym);
 }
