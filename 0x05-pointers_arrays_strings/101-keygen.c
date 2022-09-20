@@ -12,7 +12,7 @@ int main(void)
 	int r = 0, i = 0;
 	time_t t;
 
-	srand((unsigned int) time_t(&t));
+	srand((unsigned int) time(&t));
 	while (i < 2772)
 	{
 		r = rand() % 128;
