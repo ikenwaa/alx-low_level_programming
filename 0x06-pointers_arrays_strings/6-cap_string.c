@@ -21,8 +21,9 @@ char *cap_string(char *str)
 			if (*(s + cnt) == word_sep[i])
 			{
 				if ((*(s + (cnt + 1)) > 96) && (*(s + (cnt + 1)) < 123))
-					*(s + (cnt + 1)) += 32;
-			break;
+					*(s + (cnt + 1)) -= 32;
+				break;
+			}
 		}
 		cnt++;
 	}
