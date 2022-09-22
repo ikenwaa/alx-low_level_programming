@@ -5,7 +5,7 @@
  * @dest: destination string
  * @src: source of string
  * @n: amount of bytes used by src
- * 
+ *
  * Return: pointer to dest.
  */
 
