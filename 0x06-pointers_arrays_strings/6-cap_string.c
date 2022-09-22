@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		for (i = 0; i < 13; i++)
 		{
 			if (s[cnt + 1] == word_sep[i])
-				s[cnt + 1] -+ 32;
+				s[cnt + 1] += 32;
 			break;
 		}
 		cnt++;
