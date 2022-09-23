@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
- * infinite_add - adds two numbers.
- * @n1: the first number
- * @n2: the second number
- * @r: buffer  that function uses to store result
- * @size_r: size of the buffer
+ * rev_string - reverse string
+ * @n: string to be reversed
  * Return: pointer to dest.
  */
 
 void rev_string(char *n)
 {
-	int i = 0;
-	int j = 0;
+	int i = 0, j = 0;
 	char temp;
 
 	while (*(n + i) != '\0')
