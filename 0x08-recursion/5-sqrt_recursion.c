@@ -15,16 +15,16 @@ int _sqrt_recursion(int n)
 
 /**
  * square_root - Get the naturaral square root of a number
- * @num: number to calculate
+ * @n: number to calculate
  * @i: iterate
  * Return: square root
  */
 
-int square_root(int num, int i)
+int square_root(int n, int i)
 {
-	if (i * i > num)
+	if (i * i > n)
 		return (-1);
-	else if (i * i == num)
+	else if (i * i == n)
 		return (i);
-	return (square_root(num, num + 1));
+	return (square_root(n, n + 1));
 }
