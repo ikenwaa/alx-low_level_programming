@@ -24,7 +24,7 @@ int square_root(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
-	else if (i * i == n)
+	if (i * i == n)
 		return (i);
 	return (square_root(n, n + 1));
 }
