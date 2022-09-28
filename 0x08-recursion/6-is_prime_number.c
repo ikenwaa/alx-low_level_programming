@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * prime_num - Checks if number is prime number
@@ -11,7 +11,7 @@ int prime_num(int n, int i)
 {
 	if (n % i == 0)
 	{
-		if(n == i)
+		if (n == i)
 			return (1);
 		else
 			return (0);
