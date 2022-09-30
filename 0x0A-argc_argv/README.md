@@ -11,3 +11,6 @@ I learnt about `argc` - argument count and `argv` - argument vector, which are a
 
 ## 2. The best argument against democracy is a five-minute conversation with the average voter
 - This program prints to the `stdout` all the arguments it receives on a new line.
+
+## 3. Neither irony nor sarcasm is argument
+- This program multiplies two numbers and prints the result to the `stdout` followed by a new line.
