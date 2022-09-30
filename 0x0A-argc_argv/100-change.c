@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 			cents -= 5;
 		else if (cents >= 1)
 			cents -= 1;
-		numcoins++;
+		numcoins += 1;
 	}
 	printf("%d\n", numcoins);
 	return (0);
