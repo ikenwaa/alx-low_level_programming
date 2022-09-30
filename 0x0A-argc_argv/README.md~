@@ -1,3 +1,0 @@
-# 0x0A. C - `argc`, `argv`
-
-I learnt about `argc` - argument count and `argv` - argument vector, which are arguments that are passed into C functions, as well as using `__attribute__((unused))` or `void` to compile programs that have unused variables and/or parameters.
