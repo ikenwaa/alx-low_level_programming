@@ -14,3 +14,6 @@ I learnt about `argc` - argument count and `argv` - argument vector, which are a
 
 ## 3. Neither irony nor sarcasm is argument
 - This program multiplies two numbers and prints the result to the `stdout` followed by a new line.
+
+## 4. To infinity and beyond
+- This program prints the addition of positive numbers to the `stdout` followed by a new line. It returns **Error** or **1** if the number contains symbols that are not digits.
