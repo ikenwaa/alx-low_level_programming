@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** main - Prints all the arguments it receives on a new line.
+/** 
+ * main - Prints all the arguments it receives on a new line.
  * @argc: argument count
  * @argv: arguments
  * Return: 0 always
