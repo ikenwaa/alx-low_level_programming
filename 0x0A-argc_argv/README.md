@@ -17,3 +17,6 @@ I learnt about `argc` - argument count and `argv` - argument vector, which are a
 
 ## 4. To infinity and beyond
 - This program prints the addition of positive numbers to the `stdout` followed by a new line. It returns **Error** or **1** if the number contains symbols that are not digits.
+
+## 5. Minimal Number of Coins for Change
+- This program prints the minimum number of coins to make change for an amount  of money using an unlimited number of coins of values 25, 10, 5, 2 and 1.
