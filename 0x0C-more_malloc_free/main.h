@@ -1,7 +1,7 @@
 #ifndef _main_H_
 #define _main_H_
 #include "stdlib.h"
-#include "stdout.h"
+#include "stdio.h"
 
 void *malloc_checked(unsigned int b);
 char *string_noncat(char *s1, char *s2, unsigned int n);
