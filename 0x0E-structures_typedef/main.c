@@ -2,10 +2,11 @@
 
 int main(void)
 {
-	dog_t *my_dog;
+	struct dog my_dog;
 
-	my_dog = new_dog("Pup", 3.5, "Me");
-	printf("My name is %s, and I am %.1f years old :) - Woof!\n", my_dog->name, my_dog->age);
-	free_dog(my_dog);
+	my_dog.name = "Bingo";
+	my_dog.age = 2.9;
+	my_dog.owner = "Austin";
+	print_dog(&my_dog);
 	return (0);
 }
