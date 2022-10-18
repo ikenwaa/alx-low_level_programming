@@ -9,30 +9,32 @@
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	int num_1, num_2;
-	char *op;
+	int a, b;
+	int (*oper)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-
-	num_1 = atoi(argv[1]);
-	op = argv[2];
-	num_2 = atoi(argv[3]);
-
-	if (get_op_func(op) == NULL || op[1] != '\0')
+	if (argv[2][1])
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*op == '/' && num_2 == 0) || (*op == '%' && num_2 == 0))
+
+	oper = get_op_func(argv[2]);
+
+	if (oper == NULL)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
-	printf("%d\n", get_op_func(op)(num_1, num_2));
+
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	printf("%d\n", oper(a, b));
 
 	return (0);
 }
