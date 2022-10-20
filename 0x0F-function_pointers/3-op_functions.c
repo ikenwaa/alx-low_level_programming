@@ -30,7 +30,15 @@ int op_mul(int a, int b) { return (a * b); }
  * @b: Divisor
  * Return: Result of a divided by b
  */
-int op_div(int a, int b) { return (a / b); }
+int op_div(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a / b);
+}
 
 /**
  * op_mod - Gets the remainder of the division of integers
@@ -38,4 +46,12 @@ int op_div(int a, int b) { return (a / b); }
  * @b: second integer
  * Return: Result of a modulo b
  */
-int op_mod(int a, int b) { return (a % b); }
+int op_mod(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
+}
