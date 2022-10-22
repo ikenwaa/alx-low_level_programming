@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	print_strings(", ", 2, "Augustine", "Ikenwa");
+	print_all("ceis", 'B', 1.5, 2, "Augustine", "Ikenwa");
 	return (0);
 }
