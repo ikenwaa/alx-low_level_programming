@@ -2,11 +2,8 @@
 
 int main(void)
 {
-	unsigned int n;
-
-	n = binary_to_uint("1001");
-	printf("%u\n", n);
-	n = binary_to_uint("1e001");
-	printf("%u\n", n);
+	print_binary(1024);
+	printf("\n");
+	print_binary(98);
 	return (0);
 }
