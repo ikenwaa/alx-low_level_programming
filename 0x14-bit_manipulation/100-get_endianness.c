@@ -7,8 +7,10 @@ nclude "main.h"
  */
 int get_endianness(void)
 {
-	unsigned int num = 1;
+	unsigned int num;
 	char *c;
+
+	num = 1;
 
 	c = (char *) &num;
 
