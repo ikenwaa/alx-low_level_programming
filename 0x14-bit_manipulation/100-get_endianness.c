@@ -5,7 +5,7 @@ nclude "main.h"
  *
  * Return: 0 if big endian, 1 if little endian
  */
-int get endianness(void)
+int get_endianness(void)
 {
 	unsigned int num = 1;
 	char *c;
