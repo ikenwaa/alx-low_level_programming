@@ -2,8 +2,12 @@
 
 int main(void)
 {
-	print_binary(1024);
-	printf("\n");
-	print_binary(98);
+	int n;
+
+	n = get_endianness();
+	if (n != 0)
+		printf("Little ENdian\n");
+	else
+		printf("Big endian\n");
 	return (0);
 }
