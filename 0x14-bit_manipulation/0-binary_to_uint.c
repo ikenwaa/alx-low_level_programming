@@ -3,7 +3,7 @@
 /**
  * binary_to_uint - Converts a binary number to unsigned integer
  * @b: binary number to convert
- * Return: converted number or 0 if b is NULL 
+ * Return: converted number or 0 if b is NULL
  * or has chars other than 0 0r 1.
  */
 
@@ -22,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 
 	for (len--, base_2 = 1; len >= 0; len--, base_2 *= 2)
 	{
-		if (b[len] != '\0' && b[len] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
 		if (b[len] & 1)
 			i += base_2;
