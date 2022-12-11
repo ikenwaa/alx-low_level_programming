@@ -2,10 +2,9 @@
 
 /**
  * add_dnodeint - Adds a new node at the beginning of a
- * 		dlistint_t list.
+ * dlistint_t list.
  * @head: pointer to pointer of head of list
- * @n: the node to add
- *
+ * @n: the node data
  * Return: address of the new element or NULL if failed.
  */
 
@@ -16,6 +15,9 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (head == NULL)
 		return (NULL);
 
+	new = malloc(sizeof(struct dlistint_s));
+	if (new == NULL)
+		return (NULL);
 	new->n = n;
 
 	if (*head == NULL)
