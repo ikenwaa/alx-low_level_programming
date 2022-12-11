@@ -5,7 +5,7 @@
  * @head: pointer to the head of node
  */
 
-void free_dlistint(dlistint_t **head)
+void free_dlistint(dlistint_t *head)
 {
 	if (!head)
 		return;
